@@ -27,4 +27,9 @@ print("Osijek\nAcademy")
 phrase="Osije Academy"
 print(phrase)
 print(phrase + " is cool ")
+print(phrase.upper())
+print(phrase.isupper()) #False
+print(phrase.upper().isupper()) #True
+print(len(phrase)) #13
+print(phrase[0]) # O
 
