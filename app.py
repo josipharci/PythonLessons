@@ -20,4 +20,11 @@ print("I am " + character_age + " years old. ")
 print("I like " + character_like +  ".")
 print("I'm learning " + character_learning + ".")
 
+#Working With Strings
+
+print("Osijek\nAcademy")
+
+phrase="Osije Academy"
+print(phrase)
+print(phrase + " is cool ")
 
