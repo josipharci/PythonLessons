@@ -33,3 +33,11 @@ print(phrase.upper().isupper()) #True
 print(len(phrase)) #13
 print(phrase[0]) # O
 
+#funkcije
+
+name= input("what is your name?")
+print(" Hello " + name)
+
+birht_year = input("Enter your birth year:")
+age= 2022 - int(birht_year)
+print(age)
