@@ -2,6 +2,7 @@
 # ili umnožak unesenih brojeva (a * b * c) ovisno o tome koja je od tih 
 # dviju vrijednosti veća.
 
+#zadatak za poslje
 
 a=int(input("number1: "))
 b=int(input("number2: "))

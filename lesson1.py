@@ -1,4 +1,5 @@
 #Prvi Code
+
 print("Hello World")
 
 a = int(input("input num1: "))
