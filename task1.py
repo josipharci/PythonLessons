@@ -10,5 +10,3 @@ c=int(input("number3: "))
 
 sum1 = a + b + c 
 sum2 = a * b * c 
-
-     
