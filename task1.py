@@ -2,11 +2,21 @@
 # ili umnožak unesenih brojeva (a * b * c) ovisno o tome koja je od tih 
 # dviju vrijednosti veća.
 
-#zadatak za poslje
+# sum vrijednost = 5
+# mult vrijednost = 4
 
-a=int(input("number1: "))
-b=int(input("number2: "))
-c=int(input("number3: "))
+a= 1
+b= 2
+c= 2
 
-sum1 = a + b + c 
-sum2 = a * b * c 
+sum = a + b + c 
+mult = a * b * c 
+
+if sum > mult:
+    x = sum
+    y = bool(x)
+else:
+    x = mult
+    y = bool(x)
+
+print(x , y)
