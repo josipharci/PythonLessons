@@ -8,6 +8,5 @@ b = int(input("input num2: "))
 if a > b > 0:
   x = a / b 
 else: 
-  x = "Error"
-
+  x = "ERROR! This is not valid enter"
 print(x)
