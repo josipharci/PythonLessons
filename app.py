@@ -33,8 +33,6 @@ print(phrase.upper().isupper()) #True
 print(len(phrase)) #13
 print(phrase[0]) # O
 
-#funkcije
-
 name= input("what is your name?")
 print(" Hello " + name)
 
