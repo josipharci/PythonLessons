@@ -11,9 +11,9 @@ b = 10
 c = 15
 d = 21
 
-x = a + b + c + d / 4
+x = (a + b + c + d) / 4
 
-# print(x)
+print(x)
 
 '''
 
