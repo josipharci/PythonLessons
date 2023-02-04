@@ -22,5 +22,15 @@ elif x==5:
 else:
     print("None of the conditions are met!")
 
+# while
 
+x = 0
+
+while x < 10:
+    print("Hello! My name is Josip")
+    x = x + 1
+
+# Beskonačna petlja
+''' while True:
+    print("Hello World") '''
  
