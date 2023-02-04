@@ -23,9 +23,9 @@ sredinom koju ste prethodno spremili u varijablu napravite
 kvadriranje i ispišite dobiveni rezultat
 
 '''
-y = int(x) * int(x)
+y = int(x) ** 2
 
-# print(y)
+print(y)
 
 '''
 Korištenjem skraćenih aritmetičkih operatora rezultat dobiven iz 
@@ -34,7 +34,7 @@ prethodnog zadatka pomnožite sa 100 i ispišite dobivenu vrijednost.
 '''
 y*=100
 
-# print(y)
+print(y)
 
 '''
 Pomoću operatora usporedbe provjerite je li broj koji ste dobili u 
