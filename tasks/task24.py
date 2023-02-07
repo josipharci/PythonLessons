@@ -22,3 +22,14 @@ if a1 <= b1 and a2 >= b2:
     print("Zadovoljava")
 else: 
     print("Ne zadovoljava")
+
+
+'''
+Ispišite sve parne brojeve između 1 i 1000 koju su istovremeno 
+djeljivi i s 5 i s 13.
+
+'''
+
+for n in range(1,1000):
+    if n%2 == 0 and n%5 == 0 and n%13 == 0:
+        print(n)
