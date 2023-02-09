@@ -29,3 +29,13 @@ b = 9
 
 res = sum()
 print(res)
+
+'''
+ Prethodni zadatak napišite, a da ne koristite globalne varijable 
+(korištenjem parametara funkcije).
+'''
+def sum(a,b):
+    x = a + b
+    print(x)
+
+sum(5,9)
