@@ -24,6 +24,7 @@ num = input("Unesi broj za korjenovanje: ")
 rez = math.sqrt(int(num))
 
 print(rez)
+
 '''
 Korištenjem konstanti koje su pohranjene u modulu math ispišite 
 vrijednost konstante PI.
@@ -32,3 +33,16 @@ vrijednost konstante PI.
 from math import pi
 
 print(pi)
+
+
+'''
+Korištenjem konstante PI izračunajte i ispišite rezultat:
+sin(2PI) + cos(PI)
+
+'''
+
+from math import cos,sin,pi
+
+rez = sin(2*pi) + cos(pi)
+
+print(rez)
