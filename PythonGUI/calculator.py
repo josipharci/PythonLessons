@@ -11,6 +11,8 @@ e.grid(row=0, column=0, columnspan=3, padx=10, pady=10)
 def button_add():
     return
 
+# Define Buttons
+
 buttonOne = Button(root, text="1", padx=40, pady=20, command=button_add)
 buttonTwo = Button(root, text="2", padx=40, pady=20, command=button_add)
 buttonThree = Button(root, text="3", padx=40, pady=20, command=button_add)
@@ -22,7 +24,25 @@ buttonEight = Button(root, text="8", padx=40, pady=20, command=button_add)
 buttonNine = Button(root, text="9", padx=40, pady=20, command=button_add)
 buttonZero = Button(root, text="0", padx=40, pady=20, command=button_add)
 
-myButton = Button(root,  text="Enter Your Stock Quote",  command=myClick)
+# Put the buttons on the screen
+
+buttonOne.grid(row=3, column=0)
+buttonTwo.grid(row=3, column=1)
+buttonThree.grid(row=3, column=2)
+
+buttonFour.grid(row=2, column=0)
+buttonFive.grid(row=2, column=1)
+buttonSix.grid(row=2, column=2)
+
+buttonSeven.grid(row=1, column=0)
+buttonEight.grid(row=1, column=1)
+buttonNine.grid(row=1, column=2)
+
+buttonZero.grid(row=4, column=0)
+
+
+
+
 
 
 root.mainloop()
